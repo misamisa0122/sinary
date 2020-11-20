@@ -1,6 +1,42 @@
 @charset "UTF-8";
 /* CSS Document */
 
+@font-face{
+	font-family: 'Noto Sans JP';
+	font-style:normal;
+	font-weight: 400;
+	src:
+	local("Noto Sans CJK JP"),	url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff2) format('woff2'),
+		url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff) format('woff'),
+		url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.otf) format('opentype');
+	
+}
+
+@font-face{
+    font-family: "myfont";
+    src: url(../font/anzu/APJapanesefont.woff) format('woff'),
+         url(../font/anzu/APJapanesefont.eot) format('eot');
+}
+
 html{
 	font-size: 62.5%;/*16px×62.5%=10px*/
+}
+
+body{
+    color: #333333;
+    background-color: #f9f7f6;
+    font-family: 'Noto Sans JP','Open Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.85;
+    -webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.text-center{
+    text-align: center;
 }
