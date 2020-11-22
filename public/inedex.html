@@ -2,34 +2,38 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
         <title>sinary_petit</title>
         <meta name="format-detection" content="telephone=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="shortcut icon" href="../assets/images/favicon.ico">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/CSS/reset.css">
-        <link rel="stylesheet" href="/CSS/style.css">
+        <link rel="stylesheet" href="./css/ress-master/ress.css">
+        <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
         <!-- header -->
         <header>
-            <h1><a href="./inedex.html"><img src="./image/top_logo.png" alt="sinary_logo"></a></h1>
-            <p>100%脱石油誰もが安心して綺麗になれる化粧品をあなたに。</p>
-            <img src="./image/top/ML_top.png" alt="ML">
-            <img src="./image/top/RMC_top.png" alt="RMC">
+            <div class="top">
+                <h1><a href="./inedex.html"><img src="./image/top_logo.png" alt="sinary_logo"></a></h1>
+                <img src="./image/top/text-pc.png" alt="text-pc" class="text-pc">
+                <img src="./image/top/ML_top.png" alt="ML" class="top-ml">
+                <img src="./image/top/RMC_top.png" alt="RMC" class="top-rmc">
+            </div>
             <!-- navi -->
-            <ul>
-                <li><a href="first/"><img src="./image/navi/first01.png" alt="first"></a></li>
-                <li><a href="pickup/"><img src="./image/navi/pickup01.png" alt="pickup"></a></li>
-                <li><a href="product/"><img src="./image/navi/product01.png" alt="product"></a></li>
+            <ul class="navi">
+                <li ><a href="first/"><img src="./image/navi/first01.png" alt="first"class="navi-item"></a></li>
+                <li ><a href="pickup/"><img src="./image/navi/pickup01.png" alt="pickup"class="navi-item"></a></li>
+                <li ><a href="product/"><img src="./image/navi/product01.png" alt="product"class="navi-item"></a></li>
             </ul>
             <!-- /navi -->
         </header>
         <!-- /header -->
         <main>
             <!-- 更新情報 -->
-            <section>
-                <h2>更新情報</h2>
+            <section class="text-center wrapper news">
+                <h2 class="news-title">更新情報</h2>
                 <div>
                     <p>2020.10.10</p>
                     <p>【Pickup】お手入れ方法を更新しました。</p>
@@ -45,9 +49,9 @@
             </section>
             <!-- /更新情報 -->
             <!-- First -->
-            <section>
+            <section class="text-center wrapper">
                 <h2><img src="./image/top/first_top.png" alt="First"></h2>
-                <p>
+                <p class="main-text">
                     シナリー化粧品を使い始めた方へ。<br>
                     オススメのお手入れ方法や綺麗になるための情報などを公開！<br>
                     まず最初にチェックしましょう！
@@ -56,9 +60,9 @@
             </section>
             <!-- /First -->
             <!-- Pickup -->
-            <section>
+            <section class="text-center wrapper">
                 <h2><img src="./image/top/Pickup_top.png" alt="pickup"></h2>
-                <p>
+                <p class="main-text">
                     お便り配信中！<br>
                     他にも新製品を活用したお手入れ方法なども公開！<br>
                     皆さんのお役立ちする情報が随時更新しています！
@@ -68,9 +72,9 @@
             </section>
             <!-- /Pickup -->
             <!-- product -->
-            <section>
+            <section class="text-center wrapper">
                 <h2><img src="./image/top/Product_top.png" alt="product"></h2>
-                <p>
+                <p class="main-text">
                     100年後の地球と子どもたちの未来のために、<br>
                     100％脱石油の製品をお届けします。<br>
                     注文はこちらからできます！
@@ -81,13 +85,13 @@
 
 
         </main>
+        <!-- pagetop -->
+        <a href="#"><img src="./image/pagetop.png" alt="pagetop" class="pagetop"></a>
+        <!-- /pagetop -->
 
         <!--  footer-->
-        <footer>
-            <!-- pagetop -->
-            <img src="./image/pagetop.png" alt="pagetop">
-            <!-- /pagetop -->
-            <img src="./image/top_logo白.png" alt="sinary-logowhite">
+        <footer class="footer text-center">
+            <p class="footer-logo"><img src="./image/top_logo白.png" alt="sinary-logowhite"></p>
             <small>&copy;2020 sinary-petit</small>
         </footer>
         <!-- /footer -->
