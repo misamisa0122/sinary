@@ -45,8 +45,39 @@ img{
     height: auto;
 }
 
+/* utility */
+
+.inner{
+    overflow: hidden;
+}
+
+.arc{
+    width: 100%;
+    height: 320px;
+    background: #e48cac;
+    min-height: 300px;
+    border-bottom-right-radius: 2000px 300px;
+    border-bottom-left-radius: 2000px 300px;
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+
+.top-title{
+    margin: 110px 0 60px;
+    width: 200px;
+}
+
 .text-center{
     text-align: center;
+}
+.b-inner{
+    padding-bottom: 110px;
+}
+
+.inner2{
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 .wrapper{
@@ -127,29 +158,6 @@ img{
 }
 .header-logo{
     width: 100px;
-}
-
-/* utility */
-
-.inner{
-    overflow: hidden;
-}
-
-.arc{
-    width: 100%;
-    height: 320px;
-    background: #e48cac;
-    min-height: 300px;
-    border-bottom-right-radius: 2000px 300px;
-    border-bottom-left-radius: 2000px 300px;
-    padding-left: 200px;
-    padding-right: 200px;
-
-}
-
-.top-title{
-    margin: 110px 0 60px;
-    width: 200px;
 }
 
 /* トップページ */
@@ -257,11 +265,6 @@ img{
 .b-text{
     font-size: 5rem;
 }
-
-.b-inner{
-    padding: 0 40px 110px 40px;
-
-}
 .section-top2{
     display: flex;
 }
@@ -272,7 +275,68 @@ img{
     width: 45%;
 }
 
+/* product */
+
+.top-p{
+    font-size: 3.6rem;
+    color: #e48cac;
+    border-bottom: solid 3px #e48cac;
+    padding-top: 60px;
+}
+
+.p-item{
+    box-sizing: border-box;
+    width: 24%;
+	margin-bottom: 24px;
+	padding-left: 15px;
+	line-height: 1;
+
+}
+
+.p-title{
+    display: block;
+    font-size: 1.6rem;
+}
+
+.p-price{
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* pickup */
+
+.text-top{
+    padding: 110px 0 40px;
+}
+
+.box3{
+    width: 80%;
+    padding: 0.5em 1em;
+    margin: 10px auto;
+    border: dashed 2px #e48cac;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+
+.list-img{
+    box-sizing: border-box;
+    width: 50%;
+    padding: 20px 10px 10px 10px;
+    line-height: 1;
+    font-size: 1.6rem;
+}
+
+.list-img img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0 0;
+}
+
+.pic-wrp{
+    margin: 90px 0 110px;
+}
 /* footer */
+
 .footer{
     padding: 40px 0 20px;
     background: #e48cac;
