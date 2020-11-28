@@ -71,13 +71,11 @@ img{
 .text-center{
     text-align: center;
 }
-.b-inner{
-    padding-bottom: 110px;
-}
 
 .inner2{
     max-width: 1140px;
     margin: 0 auto;
+    padding: 0 50px;
 }
 
 .wrapper{
@@ -179,6 +177,10 @@ img{
 
 /* first */
 
+.b-inner{
+    padding-bottom: 110px;
+}
+
 .box{
     padding: 0.5em 1em;
     margin: 2em 0;
@@ -234,23 +236,25 @@ img{
 	letter-spacing: 0.1em;
 }
 
-.first-y{
-    width: 50px;
-}
-
 .first01{
-    width: 460px;
-    height: 300px;
-    text-align:center;  
-    margin:0 auto;
+    width: 480px;
+    height: 220px;
+    text-align:center; 
+    margin:0 auto 20px;
     
 }
 
 .first02{
     width: 480px;
-    height: 300px;
+    height: 220px;
     text-align:center;  
     margin:0 auto;
+}
+
+.first-y{
+    width: 50px;
+    line-height: 220px;
+
 }
 
 .first01-top{
@@ -263,7 +267,7 @@ img{
     margin: 90px 0 40px;
 }
 .b-text{
-    font-size: 5rem;
+    font-size: 4rem;
 }
 .section-top2{
     display: flex;
@@ -312,6 +316,14 @@ img{
 
 .pro-wrp{
     margin: 110px 0 110px;
+}
+
+.pro-navi{
+    margin-top: 110px;
+}
+
+.pro-navi img{
+    width: 40%;
 }
 
 /* pickup */
