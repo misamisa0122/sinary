@@ -12,30 +12,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/ress-master/ress.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/jquery.css">
 </head>
 
 <body>
     <!-- header -->
-    <header class="header header-inner">
-        <div class="header-logo"><a href="../index.html"><img src="../image/top_logo.png" alt="logo"></a></div>
+    <header class="header">
+		<div class="logo">
+			<a href="../index.html"><img src="../image/top_logo.png" alt="ロゴ"></a>
+		</div>
+		<div class="nav_button" href="#">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<nav class="nav_wrap">
+			<div class="nav">
+			<ul class="nav_menu text_center">
+				<li><a href="../first/index.html"><img src="../image/navi/first_pink.png" alt="first"></a></li>
+				<li><a href="../pickup/index.html"><img src="../image/navi/pickup_pink.png" alt="pickup"></a></li>
+				<li><a href="../product/index.html"><img src="../image/navi/product_pink.png" alt="product"></a></li>
+			</ul>
+			</div>
+		</nav>
+	</header>
 
-        <nav>
-            <ul class="navi-list2">
-                <li class="navi-item"><a href="../first/index.html"><img src="../image/navi/first_pink.png" alt="first_pink"></a>
-                </li>
-                <li class="navi-item"><a href="../pickup/index.html"><img src="../image/navi/pickup_pink.png"
-                            alt="pickup_pink"></a></li>
-                <li class="navi-item"> <a href="../product/index.html"><img src="../image/navi/product_pink.png"
-                            alt="product_pink"></a> </li>
-            </ul>
-        </nav>
-    </header>
     <!-- /header -->
     <main>
         <section>
             <div class="inner">
                 <div class="arc text-center">
-                    <img src="../image/product/product_white.png" alt="product_white" class="top-title">
+                    <img src="../image/product/product_white.png" alt="product_white">
                 </div>
             </div>
         </section>
@@ -240,6 +247,8 @@
         <small>&copy;2020 sinary-petit</small>
     </footer>
     <!-- /footer -->
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="../js/style.js"></script>
 </body>
 
 </html>
