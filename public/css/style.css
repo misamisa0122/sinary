@@ -55,8 +55,6 @@ img{
     min-height: 300px;
     border-bottom-right-radius: 2000px 300px;
     border-bottom-left-radius: 2000px 300px;
-    padding-left: 200px;
-    padding-right: 200px;
     
 
 }
@@ -98,10 +96,17 @@ img{
     height: 710px;
 }
 
+.logo2{
+    position: absolute;
+    top: 20px;
+   left: 20px;
+}
+
 .top-ml{
     position: absolute;
-    top: 0;
+    top: 80px;
     right: 0;
+
 
 }
 
@@ -368,8 +373,15 @@ img{
     margin-top: 110px;
 }
 
-.pro-navi img{
-    width: 40%;
+.btn-product{
+    font-family: myfont;
+    font-size: 3rem;
+    margin: 0 10px;
+    
+}
+
+.btn-product a{
+    color: #e48cac;
 }
 
 /* pickup */
@@ -441,6 +453,15 @@ img{
 
 .arc img{
     padding: 150px 0;
+}
+
+.top-ml{
+    width: 45%;
+}
+
+.top-rmc{
+    width: 43%;
+    bottom: 50px;
 }
 
 /* nav */
